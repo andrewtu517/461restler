@@ -1,0 +1,3 @@
+2024-12-05 14:01:15.883: Initializing: Garbage collection every 30 seconds.
+2024-12-05 14:01:15.893: Generation: 1 
+You pressed Ctrl+C!

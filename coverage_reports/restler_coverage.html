@@ -1,0 +1,93 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>RESTler Coverage Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background-color: #f4f4f4;
+            }
+            .coverage-summary {
+                width: 90%;
+                margin: auto;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .coverage-bar {
+                width: 100%;
+                background-color: #ddd;
+                border-radius: 25px;
+                overflow: hidden;
+                margin: 20px 0;
+            }
+            .coverage-bar-fill {
+                height: 30px;
+                width: 71%;
+                background-color: #4CAF50;
+                text-align: center;
+                line-height: 30px;
+                color: white;
+                border-radius: 25px 0 0 25px;
+                transition: width 0.5s;
+            }
+            .details {
+                text-align: left;
+                margin-top: 20px;
+            }
+            .endpoint-list {
+                max-height: 300px;
+                overflow-y: scroll;
+                border: 1px solid #ccc;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+            .covered {
+                color: green;
+            }
+            .uncovered {
+                color: red;
+            }
+            .timestamp {
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #555;
+            }
+            h1, h2 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="coverage-summary">
+            <h1>RESTler Coverage Report</h1>
+            <p><strong>Coverage Percentage:</strong> 71%</p>
+            <div class="coverage-bar">
+                <div class="coverage-bar-fill">71%</div>
+            </div>
+            <div class="details">
+                <p><strong>Total Endpoints:</strong> 9</p>
+                <h2>Covered Endpoints (6):</h2>
+                <div class="endpoint-list">
+                    <ul>
+                        <li class="covered">/package</li><li class="covered">/authenticate</li><li class="covered">/package/byRegEx</li><li class="covered">/package/{id}/rate</li><li class="covered">/tracks</li><li class="covered">/package/{id}</li>
+                    </ul>
+                </div>
+                <h2>Uncovered Endpoints (3):</h2>
+                <div class="endpoint-list">
+                    <ul>
+                        <li class="uncovered">/package/{id}/cost</li><li class="uncovered">/packages</li><li class="uncovered">/reset</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timestamp">
+                Report generated at: 2024-12-06T16:19:13.332193Z
+            </div>
+        </div>
+    </body>
+    </html>
+    
