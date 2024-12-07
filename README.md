@@ -164,5 +164,3 @@ For additional details, see [Security.md](SECURITY.md).
 
 https://go.microsoft.com/fwlink/?LinkId=521839
 =======
-# 461restler
->>>>>>> 8f5dad5ed15b8a602a1c197fbfbb985e5d39e0e1
